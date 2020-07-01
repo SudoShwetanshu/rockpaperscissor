@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@1,700&display=swap');
+body {
+    background: #4CA1AF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Asap Condensed, sans-serif;
+    color: darkblue;
+}
+
+#container {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+#scoreboard,
+#runningscore {
+    margin: 70px 0px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#playerscore {
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#computerscore {
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px 15px;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+#versus {
+    margin-top: 50px;
+}
+
+#input {
+    margin-top: 50px;
+}
+
+#rockbtn,
+#paperbtn,
+#scissorsbtn {
+    width: 120px;
+    height: 60px;
+    font-size: 14px;
+    background: #4697d1;
+    color: white;
+    border-style: hidden;
+    border-radius: 6px;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    outline: 0;
+    margin: 50px 0px 0px 0px;
+}
+
+#paperbtn {
+    margin: 10px;
+}
+
+#rockbtn:hover,
+#paperbtn:hover,
+#scissorsbtn:hover,
+{}
+
+#rockbtn:active,
+#paperbtn:active,
+#scissorsbtn:active {
+    opacity: 50%;
+}
+
+.whoweplayingagainst {
+    font-size: 18px;
+    margin: 5px 0px 0px 430px;
+    color: blueviolet;
+}
+
+@media only screen and (max-width: 600px) {
+    .whoweplayingagainst {
+        color: red;
+        margin: 10px 0px 0px 0px;
+        font-size: 16px;
+    }
+    #container {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    #scoreboard,
+    #runningscore {
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+
+.scorestyle {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer>div {
+    display: inline-block;
+    color: purple;
+    font-family: Asap Condensed, sans-serif;
+    font-size: 15px;
+}
