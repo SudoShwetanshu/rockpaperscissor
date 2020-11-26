@@ -1,4 +1,4 @@
-A classic game of RPS made in association with The Odin Project. It can be be played at [GitHub Pages]
+A classic game of RPS. It can be be played at [GitHub Pages]
 
 ## Rules of Rock Paper Scissors
 
@@ -7,5 +7,7 @@ Each turn consists of the player making a distinct choice and the computer makin
 - Rock beats Scissors.
 - Paper beats Rock.
 - Scissors beats Paper.
+
+Watch it live [Here](https://sudoshwetanshu.github.io/rockpaperscissor/)
 
 Have fun!
